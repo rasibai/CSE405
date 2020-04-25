@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+</head>
+
+<body>
+    <h1>Calculator</h1>
+
+<form class="calc">
+    <table class="calc" border="border">
+        <tr>
+            <td colspan="4">0</td>
+        </tr>
+
+        <tr>
+            <td colspan="3"><button onclick="insert('7')">CE</button></td>
+            <td><button onclick="insert('7')">/</button></td>
+        </tr>
+        <tr>
+            <td><input class="button" type"button" value="7" onclick="insert('7')"></button></td>
+            <td><input class="button" type"button" value="8" onclick="insert('8')"></button></td>
+            <td><input class="button" type"button" value="9" onclick="insert('9')"></button></td>
+            <td><input class="button" type"button" value="*" onclick="insert('*')"></button></td>
+        </tr>
+        <tr>
+            <td><input class="button" type"button" value="4" onclick="insert('4')"></button></td>
+            <td><input class="button" type"button" value="5" onclick="insert('5')"></button></td>
+            <td><input class="button" type"button" value="6" onclick="insert('6')"></button></td>
+            <td><input class="button" type"button" value="-" onclick="insert('-')"></button></td>
+        </tr>
+        <tr>
+            <td><input class="button" type"button" value="1" onclick="insert('1')"></button></td>
+            <td><input class="button" type"button" value="2" onclick="insert('2')"></button></td>
+            <td><input class="button" type"button" value="3" onclick="insert('3')"></button></td>
+            <td><input class="button" type"button" value="+" onclick="insert('+')"></button></td>
+        </tr>
+        <tr>
+            <td><input class="button" type"button" value="0" onclick="insert('0')"></button></td>
+            <td><input class="button" type"button" value="." onclick="insert('.')"></button></td>
+            <td><input class="button" type"button" value="=" onclick="insert('=')"></button></td>
+        </tr>
+    </table>
+</form>
+<script>
+    var inputLabel = document.getElementById('inputLabel');
+
+        function insert(num){
+            document.form.textview.value = document.form.textview.value+num
+        }
+        
+</script>
+
+<style>
+    *{
+        margin: auto;
+        padding: auto;
+        background-color: peachpuff;
+        background-size: 100%;
+    }
+
+    .calc{
+        margin: 1;
+        padding: 1;
+        opacity: 400;
+        background-color: peru;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
