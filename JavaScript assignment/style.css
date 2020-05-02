@@ -1,0 +1,17 @@
+body{
+    background-image: url('images/peach1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.calcForm{
+    position: absolute;
+    background-image: url("images/gray1.jpg");
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px;
+    opacity: 500%;
+    position: auto;
+    
+}

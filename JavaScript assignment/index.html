@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-6 col-md-3">
+            <form class="calcForm">
+                <h1 class="text-center font-eight-bold">Simple Calculator</h1>
+                Value 1: <input type='text' id="v1">
+                Value 2: <input type='text'id="v2">
+                Operator:
+                
+                <select id="operator">
+                    <option value="add">Add</option>
+                    <option value="sub">Subtract</option>
+                    <option value="mult">Multiply</option>
+                    <option value="div">Divide</option>
+                </select>
+                
+                <button type="button" onclick="calculate()">Calculate</button>
+                <div id="result"></div>
+            </form>
+        </div>
+    </div>
+</div>
+<div>
+<br>
+<h2>Tutorials I used:</h2> 
+<p> JavaScript Tutorial: https://www.youtube.com/watch?v=W6NZfCO5SIk&t=1647s
+    <br>
+    Creating a Calculator: https://www.youtube.com/watch?v=qQEYAOPWDzk
+    
+</p> 
+</div>  
+</body>
+</html>
