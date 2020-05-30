@@ -1,0 +1,115 @@
+nav .navbar-brand{
+    background-color: aqua;
+}
+
+
+body{
+    background-image: url("../images/beach.png");
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    text-shadow: aquamarine;
+    font-size: 56px;
+    font-family: cursive;
+    top: 50px;
+    
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+
+.wrapper h4{
+    font-size: 32px;
+}
+.wrapper .searchBox{
+    width: 200px;
+    background: #fff;
+    height: 65px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0 8px 6px -10px #b3c6ff;;
+     
+}
+
+.wrapper .searchBox .dropdown{
+    width: 500px;
+    border-right: 2px solid  #dde2f1;
+    color: black;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+}
+
+.wrapper .searchBox .dropdown .defaultOpt{
+    text-transform: uppercase;
+    padding: 13px 15px;
+    font-size: 14px;
+    user-select: none;
+}
+
+.wrapper .searchBox .dropdown ul{
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    background: 5px;
+    padding: 20px;
+    box-shadow: 8px 8px 6px -10px #b3c6ff;
+    display: none;
+}
+
+
+.wrapper .searchBox .dropdown ul.active{
+    display: block;
+}
+
+.wrapper .searchBox .dropdown ul li{
+    padding-bottom: 20px;
+    user-select: none;
+}
+
+
+.wrapper .searchBox .dropdown ul li:last-child{
+    padding-bottom: 0;
+}
+
+
+.wrapper .searchBox .dropdown ul li:hover{
+    color: #6f768d;
+}
+
+
+.wrapper .searchBox .dropdown:before{
+    content:" ";
+    position: absolute;
+    top: 18px;
+    padding: 1px;
+    right: 65px;
+    border: 8px solid;
+    border-color: red transparent transparent transparent;
+
+}
+
+.wrapper .searchBox .searchBut{
+    width: 350px;
+    height: 100%;
+    position: relative;
+}
+
+.wrapper .searchBox .searchBut .button{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 38px;
+    color: #6f768d;
+}
