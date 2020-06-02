@@ -1,10 +1,5 @@
-# CSE405 Progress Reports
+# CSE405 Progress Report
 
-Assignment 1 Javascript:
-   For this assignment I watched some Tutorials on JavaScript and followed a guide on creating a simple calculator. I plan to go back and edit the design and implement more functionality. I placed the tutorials I used in the code and plan to expand more on it.
+So for the Web App I made a website called Mixer and on the Website you can login,logout, view your account info, view a references tab, and create and view drinks for yourself and others to see. I followed alot of guides from https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg. I learned how to use firebase fully and here are some images to show that it is working. 
 
-
-Assignment 2 Node.js:
-  Currently I am watching tutorials and learning about node.js. Im not entirely sure what I will do with it but I am starting to understand it.
-
-
+![](screenshots/db.png)
